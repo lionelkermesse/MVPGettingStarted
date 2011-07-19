@@ -1,0 +1,21 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		/* Add CSS here. See the GWT docs on UI Binder for more details */
+		.buttonDiv {
+			float: left;
+			padding-left: 2em;		
+		}
+	</ui:style>
+	<g:DialogBox text="Contacts">
+		<g:HTMLPanel styleName="{style.buttonDiv}">
+			<g:Button ui:field="deleteContactButton">Delete</g:Button>
+			<g:Button ui:field="editContactButton">Edit</g:Button>
+			<g:Button ui:field="addContactButton">Add</g:Button>
+			<div>
+				<g:FlexTable ui:field="contactTable"> </g:FlexTable>
+			</div>
+		</g:HTMLPanel>
+	</g:DialogBox>
+</ui:UiBinder> 

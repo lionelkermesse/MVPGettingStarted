@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+  	<servlet-name>contactsServiceServlet</servlet-name>
+  	<servlet-class>com.linkcorp.mvp.server.ContactServiceImpl2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>contactsServiceServlet</servlet-name>
+  	<url-pattern>/mvp/contactService</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>MVPGettingStarted.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

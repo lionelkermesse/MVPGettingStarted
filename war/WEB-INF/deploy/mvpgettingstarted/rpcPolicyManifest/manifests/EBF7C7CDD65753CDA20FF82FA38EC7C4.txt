@@ -1,0 +1,2 @@
+serviceClass: com.linkcorp.mvp.client.service.ContactService
+path: E8F1E68810EA9A85E3F909F6C0E4ABF6.gwt.rpc
